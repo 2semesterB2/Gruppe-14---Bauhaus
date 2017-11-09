@@ -1,0 +1,175 @@
+body{
+  font-family: "Open Sans", "sans-serif";
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.header-forside{
+  background-color: #cc0000;
+}
+
+.margin-top{
+  margin-top: 20px;
+
+}
+
+.bg-clr{
+  background-color: white;
+}
+/*Design CSS til index.html////////////////////////////////////////////*/
+.wrapper{
+  background-color: white;
+  color: #333;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.wrapper p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 20px;
+}
+
+.btn-forside a{
+background-color: #cc0000;
+padding: 1em 2em 1em 2em;
+color: white;
+font-family:"Open Sans", "sans-serif";
+font-weight: bold;
+}
+
+
+.knap-start{
+
+}
+/*///////////////////////////////////////////////////////////////////*/
+
+/*Design CSS til hvid baggrund rundt om billederne///////////////////*/
+.bg-white{
+  background-color: white;
+  margin-top: 2px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.bg-white a{
+  color: #333;
+}
+
+.bg-white p{
+  text-align: center;
+}
+/*///////////////////////////////////////////////////////////////////*/
+
+.afdeling{
+  font-weight: lighter;
+}
+
+.text-change p{
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.logo-start{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav-top{
+  background-color: #cc0000;
+  /*padding-top: 1em;
+  padding-bottom: 1em;
+  /*padding-bottom: 1em;*/
+}
+
+.margen-myre{
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.kategori-white{
+  background-color: white;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+.nav-pil{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*Footer changes*/
+footer, footer p{
+  font-size: 16px;
+  color: #333;
+  padding-top: 3em;
+  text-align: center;
+}
+
+/*https://leaverou.github.io/bubbly/*/
+/*Tekstbobbel på forside index.htmlm*/
+.speech-bubble {
+	position: relative;
+	background: #e9e9e9;
+	border-radius: .4em;
+  /*box-shadow: 2px 3px 10px 1px #000;*/
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 59px solid transparent;
+	border-left-color: #e9e9e9;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -29.5px;
+	margin-right: -59px;
+
+}
+
+
+.speech-bubble-subpage {
+	position: relative;
+	background: #e9e9e9;
+	border-radius: .4em;
+  padding: 7%;
+}
+
+.speech-bubble-subpage:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 15px solid transparent;
+	border-left-color: #e9e9e9;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -7.5px;
+	margin-right: -15px;
+  color: #333;
+}
+/*Øverst tekst på sidste side*/
+.fundet{
+  font-weight: bold;
+}
+
+
+.thumbnail{
+  margin-bottom: 20px;
+}
